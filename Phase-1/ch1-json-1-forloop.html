@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <script>
+            const sub = { FSD:
+                [
+                    {
+                        Topic: "HTMl",
+                        course :"Biginer",
+                        content :["toys" , "table" , "form"]
+                    },
+                    {
+                        Topic: "CSS",
+                        course :"Biginer",
+                        content :["toys" , "table" , "form"]
+                    }
+                ]
+            };
+
+            for(x in sub.FSD){
+                for(y in sub.FSD[x]){
+                    console.log(sub.FSD[x][y])
+                }
+            }
+        </script>
+    </body>
+</html>
