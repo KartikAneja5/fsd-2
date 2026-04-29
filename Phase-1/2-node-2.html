@@ -1,0 +1,16 @@
+<html>
+ <head>
+ </head>
+ <body>
+ <p id="id"></p>
+ <script>
+ setInterval(myfun,1000);
+ let a = 0;
+ function myfun()
+ {
+    
+ document.getElementById("id").innerHTML=new Date().toLocaleTimeString() + "<br>" + ++a;
+ }
+ </script>
+ </body>
+</html>
